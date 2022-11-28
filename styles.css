@@ -1,0 +1,181 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#search{
+    width: 480px;
+    height: 50px;
+    position: relative;
+    border-radius: 25px;
+    padding: 15px 55px;
+    margin-bottom: 10px;
+}
+#searchicon{
+position: absolute;
+right: 1050px;
+top: 17px;
+}
+.dropdown:hover .dropdowncontent{
+    display: block;
+    position: absolute;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+nav ul li a:hover{
+    background: #243342;
+}
+nav ul ul {
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+.dropdowncontent{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+}
+.startpicdiv{
+    background-color: white;
+    margin: 5px solid white;
+    max-width: 400px;
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    padding-left: 35px;
+    padding-right: 40px;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+h1{
+    font-size: 2.5rem;
+    /* font-weight: bolder; */
+}
+p{
+    font-size: 19px;
+}
+.listext{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 600px;
+}
+.expandtext{
+    max-width: 850px;
+    font-size: 18px;
+}
+.expandsection{
+    border: 2px solid whitesmoke;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+.wrapperdiv{
+    display: flex;
+    margin-top: 15px;
+}
+.wrapperdiv-2{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.notediv{
+    display: flex;
+}
+#divnote{
+    font-size: 18px;
+}
+#viewtext{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.picdiv{
+    display: flex;
+    margin-bottom: 100px;
+}
+a{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.wrapperdiv-3{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 220px;
+    background-color: aliceblue;
+    padding-bottom: 80px;
+}
+#featuredbutton{
+    height: 40px;
+    width: 170px;
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+.wrapperdiv-4{
+    display: flex;
+    max-width: 800px;
+    gap: 70px;
+    margin-left: 220px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.instructordiv{
+    margin-top: 50px;
+    font-size: x-large;
+}
+#teachbutton{
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+.partnerdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-5{
+    background-color: aliceblue;
+    margin-bottom: 50px;
+}
+.wrapper-6{
+    display: flex;
+    max-width: 800px;
+    gap: 100px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.wrapper-7{
+display: flex;
+max-width: 800px;
+gap: 100px;
+margin-left: 250px;
+margin-top: 100px;
+}
+.footerdiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+}
+p{
+    font-size: 16px;
+}
+#browsebutton{
+    background-color: black;
+    color: white;
+}
+.footerdiv{
+    display: flex;
+}
